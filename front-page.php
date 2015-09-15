@@ -32,7 +32,7 @@
       </div>
     </div>
   </div>
-  <div class="solutions dark">
+  <div id="carousel" class="solutions dark">
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-7">
@@ -77,7 +77,7 @@
       </div>
     </div>
   </div>
-  <div class="experts sky">
+  <div id="experts" class="experts sky">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -145,7 +145,7 @@
       </div>
     </div>
   </div>
-  <div class="feedback sky">
+  <div id="reviews" class="feedback sky">
     <div class="container">
       <h2 class="feedback__title text-center">Отзывы участников бизнес-карусели</h2>
       <div class="row">
@@ -181,7 +181,7 @@
       </div>
     </div>
   </div>
-  <div class="plans">
+  <div id="plans" class="plans">
     <div class="container">
       <h2>Варианты участия</h2>
       <div class="row plans__row">
@@ -243,7 +243,7 @@
         </div>
         <div class="col-xs-12 col-sm-4 col-md-2 text-sm-left text-md-right"><span class="place__have-questions">Остались вопросы?</span></div>
         <div class="col-xs-12 col-sm-4 col-md-2 text-md-center text-sm-right text-sm-left">
-        <a href='tel:+79213655137' class="place__phone">8 (921) 365-51-37</a></div>
+        <a href='tel:+79213655137' class="place__phone">+7 921 365 51 37</a></div>
         <div class="col-xs-12 col-sm-4 col-md-3 text-sm-right"><a class="callback-button">Заказать звонок</a></div>
       </div>
     </div>

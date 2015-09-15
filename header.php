@@ -24,16 +24,15 @@
           <a href='tel:+79213655137' class="header__phone">+7 921 365 51 37</a>
           <a href="javascript:void(0)" class="callback-button pull-xs-right">Заказать звонок</a>
         </div>
-        <div class="hidden-xs col-sm-3 col-md-5 pull-md-right text-md-right col-sm-pull-3 col-md-pull-0"><a href="javascript:void(0)" class="header__mail">info@vverh.tv</a><a href="javascript:void(0)" class="header__mailto">Написать письмо</a></div>
+        <div class="hidden-xs col-sm-3 col-md-5 pull-md-right text-md-right col-sm-pull-3 col-md-pull-0"><a href="mailto:info@vverh.tv" class="header__mail">info@vverh.tv</a><a href="javascript:void(0)" class="header__mailto">Написать письмо</a></div>
         <div class="hidden-xs col-sm-12 col-md-5 pull-md-right">
-          <nav class="header__menu text-md-right">
-            <ul>
-              <li><a href="javascript:void(0)">Карусель</a></li>
-              <li class="active"><a href="javascript:void(0)">Эксперты</a></li>
-              <li><a href="javascript:void(0)">Отзывы</a></li>
-              <li><a href="javascript:void(0)">Пакеты</a></li>
-            </ul>
-          </nav>
+
+          <?php wp_nav_menu( array(
+            'theme_location' => 'primary',
+            'container' => 'nav',
+            'container_class' => 'header__menu text-md-right'
+          ) ); ?>
+
         </div>
       </div>
     </div>

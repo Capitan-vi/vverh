@@ -3176,3 +3176,14 @@ body {
 .scrolloff {
   pointer-events: none;
 }
+
+.header__menu ul a {
+  border-bottom: 7px solid transparent;
+}
+
+.header__menu ul a:focus,
+.header__menu ul a:hover,
+.header__menu ul a:active {
+  border-bottom: 7px solid #df4b3a;
+}
+

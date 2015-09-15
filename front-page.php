@@ -66,9 +66,9 @@
             <p class="join__inversed">Логистика, ассортимент и ритейл</p>
             <p class="join__date">28 августа</p>
             <form>
-              <label class="join__label">Ваш mail</label>
+              <label class="join__label">Ваше имя</label>
               <input class="form-control"/>
-              <label class="join__label">Ваш mail</label>
+              <label class="join__label">Ваш e-mail или телефон</label>
               <input class="form-control"/>
               <button type="submit" class="join__submit btn">Записаться</button>
             </form>
@@ -134,9 +134,9 @@
           <div class="subscribe">
             <p class="subscribe__header">Хотите выйти из кризиса, получить новые связи и работающие бизнес-практики?</p>
             <form>
-              <label class="subscribe__label">Ваш mail</label>
+              <label class="subscribe__label">Ваше имя</label>
               <input class="form-control"/>
-              <label class="subscribe__label">Ваш mail</label>
+              <label class="subscribe__label">Ваш e-mail или телефон</label>
               <input class="form-control"/>
               <button type="submit" class="btn subscribe__button">Выйти из кризиса</button>
             </form>
@@ -163,15 +163,18 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-4"><img src="http://placehold.it/400x200" class="feedback__video-thumbnail img-responsive"/>
+        <div class="col-md-4">
+          <iframe width="360" height="203" src="https://www.youtube.com/embed/rvWt9ytIEu8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           <h4 class="feeback__video-title">Максим Полещенко</h4>
           <p class="feedback__video-description">Участник бизнес-карусели 27 июня 2015</p>
         </div>
-        <div class="col-md-4"><img src="http://placehold.it/400x200" class="feedback__video-thumbnail img-responsive"/>
+        <div class="col-md-4">
+          <iframe width="360" height="203" src="https://www.youtube.com/embed/X2gM3LEmYCI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           <h4 class="feeback__video-title">Максим Полещенко</h4>
           <p class="feedback__video-description">Участник бизнес-карусели 27 июня 2015</p>
         </div>
-        <div class="col-md-4"><img src="http://placehold.it/400x200" class="feedback__video-thumbnail img-responsive"/>
+        <div class="col-md-4">
+          <iframe width="360" height="203" src="https://www.youtube.com/embed/vIkQbx9wPwo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           <h4 class="feeback__video-title">Максим Полещенко</h4>
           <p class="feedback__video-description">Участник бизнес-карусели 27 июня 2015</p>
         </div>
@@ -248,9 +251,7 @@
 
 
 
-  <div class="map text-center">
-    <p>Место для карты</p>
-  </div>
+  <?php get_template_part('partials/_map-location'); ?>
 
 
 

@@ -3167,3 +3167,12 @@ body {
     margin: 10px 0;
   }
 }
+
+.map {
+  font-size: 0;
+  line-height: 0;
+}
+
+.scrolloff {
+  pointer-events: none;
+}

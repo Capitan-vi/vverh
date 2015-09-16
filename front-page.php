@@ -72,6 +72,8 @@
               <input class="form-control"/>
               <button type="submit" class="join__submit btn">Записаться</button>
             </form>
+
+            <?php echo do_shortcode('[contact-form-7 id="9" title="Join form"]'); ?>
           </div>
         </div>
       </div>
@@ -140,6 +142,8 @@
               <input class="form-control"/>
               <button type="submit" class="btn subscribe__button">Выйти из кризиса</button>
             </form>
+
+            <?php echo do_shortcode('[contact-form-7 id="10" title="Subscribe form"]'); ?>
           </div>
         </div>
       </div>
